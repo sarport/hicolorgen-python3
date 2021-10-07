@@ -31,5 +31,5 @@ shellCmd = shellCmd.replace("$PATH_TO_DESTIMG", destPath)
 shellCmd = shellCmd.replace("$NEW_WIDTH", str(newX))
 shellCmd = shellCmd.replace("$NEW_HEIGHT", str(newY))
 
-print "This is the script:\n" + shellCmd + "\n\nExecuting now...\n\n"
+print("This is the script:\n" + shellCmd + "\n\nExecuting now...\n\n")
 os.popen(shellCmd, 'w', 0)
